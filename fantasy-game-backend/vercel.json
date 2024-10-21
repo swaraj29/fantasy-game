@@ -2,17 +2,26 @@
   "version": 2,
   "builds": [
     {
-      "src": "./server.js",
+      "src": "fantasy-game-backend/server.js",
       "use": "@vercel/node"
     },
     {
-      "src": "src/**/*",
+      "src": "fantasy-game-frontend/dist/**/*",
       "use": "@vercel/static"
     }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/" }
-  ]
+    {
+      "src": "/api/(.*)", 
+      "dest": "fantasy-game-backend/server.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/fantasy-game-frontend/dist/$1"
+    }
+  ],
+  "env": {
+    "MONGODB_URI": "MONGO_URI ",
+    "VITE_BACKEND_URL": "https://your-deployment-url.vercel.app"
+  }
 }
-
-
