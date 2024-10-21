@@ -1,19 +1,30 @@
 {
-  "name": "fantasy_game_v2", 
-  "installCommand": "npm install --legacy-peer-deps",
+  "name": "fantasy_game",
   "version": 2,
   "builds": [
     {
-      "src": "server.js",
+      "src": "backend/index.js",
       "use": "@vercel/node"
     },
     {
-      "src": "src/**/*",
+      "src": "frontend/dist/**/*",
       "use": "@vercel/static"
     }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "/" }
-  ]
+    {
+      "src": "/api/(.*)",
+      "dest": "backend/index.js"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/frontend/dist/$1"
+    }
+  ],
+  "installCommand": "npm install --legacy-peer-deps",
+  "outputDirectory": "frontend/dist",
+  "env": {
+    "MONGODB_URI": "your_mongodb_uri",
+    "VITE_BACKEND_URL": "https://your-deployment-url.vercel.app"
+  }
 }
-
