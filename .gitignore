@@ -1,0 +1,77 @@
+# Node.js
+/node_modules
+/npm-debug.log
+/yarn-error.log
+.pnpm-debug.log
+package-lock.json
+yarn.lock
+.pnpm-lock.yaml
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.pid.lock
+
+# Environment variables
+.env
+
+# MongoDB
+*.mongodb
+/data/db
+/data/configdb
+
+# Build output
+/dist
+/build
+
+# Vite (if using for frontend)
+/.vite
+/vite.config.js
+/node_modules
+/out
+/*.tsbuildinfo
+
+# Coverage directory used by testing tools
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Editor-specific files
+/.vscode/
+/.idea/
+/*.swp
+*.swo
+*.swn
+
+# Optional npm package files
+*.tgz
+
+# Parcel cache
+.cache/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# React Native specific (if you ever switch to mobile)
+.expo/
+*.expo
+
+# Mac and Linux-specific hidden files
+*.DS_Store
+
+# Ignore node_modules for both frontend and backend
+/fantasy-game-frontend/node_modules
+/fantasy-game-backend/node_modules

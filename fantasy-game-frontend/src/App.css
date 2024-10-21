@@ -1,0 +1,152 @@
+/* /* /* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+
+/* General Body Styles */
+body {
+  font-family: 'Arial', sans-serif; /* Set a clean and modern font */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Container Styles */
+.container {
+  max-width: 1200px;
+  margin: auto; /* Center the container */
+  padding: 20px;
+}
+
+/* Navbar Styles */
+nav {
+  display: flex;
+  justify-content: space-between; /* Space out items in navbar */
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #1a1a1a; /* Dark background */
+  color: white; /* White text */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+}
+
+/* Button Styles */
+button {
+  border: none;
+  border-radius: 5px; /* Rounded corners for buttons */
+  padding: 10px 15px; /* Padding for buttons */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Smooth transition for hover effects */
+}
+
+button:hover {
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}
+
+/* Player List Styles */
+.player-list {
+  background-color: #f0f0f0; /* Light background for player list */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Inner padding */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Depth effect */
+}
+
+/* Player Item Styles */
+.player-item {
+  display: flex;
+  justify-content: space-between; /* Space out player info and buttons */
+  padding: 10px 0; /* Padding for items */
+  border-bottom: 1px solid #ddd; /* Divider between players */
+}
+
+.player-item:last-child {
+  border-bottom: none; /* Remove divider for last item */
+}
+
+/* Team Section Styles */
+.team-section {
+  background-color: #fff; /* White background for team section */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Inner padding */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Depth effect */
+}
+
+/* Dark Mode Styles */
+body.dark-mode {
+  background-color: #121212; /* Dark background for dark mode */
+  color: white; /* White text */
+}
+
+body.dark-mode nav {
+  background-color: #1a1a1a; /* Dark background for navbar */
+}
+
+body.dark-mode .player-list {
+  background-color: #1e1e1e; /* Dark background for player list */
+}
+
+body.dark-mode .team-section {
+  background-color: #2a2a2a; /* Dark background for team section */
+}
+
+body.dark-mode button {
+  background-color: #4caf50; /* Green button for dark mode */
+}
+
+body.dark-mode button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .container {
+      padding: 10px; /* Less padding on smaller screens */
+  }
+  
+  nav {
+      flex-direction: column; /* Stack items vertically */
+  }
+  
+  .grid {
+      grid-template-columns: 1fr; /* Single column on small screens */
+  }
+}
+  
