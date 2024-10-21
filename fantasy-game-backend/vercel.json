@@ -3,18 +3,18 @@
   "version": 2,
   "builds": [
     {
-      "src": "fantasy-game/fantasy-game-backend/server.js",
+      "src": "FANTASY-GAME/fantasy-game-backend/server.js",
       "use": "@vercel/node"
     },
     {
-      "src": "fantasy-game/fantasy-game-frontend/dist/**/*",
+      "src": "FANTASY-GAME/fantasy-game-frontend/dist/**/*",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/api/(.*)",
-      "dest": "fantasy-game/fantasy-game-backend/server.js"
+      "dest": "/fantasy-game-backend/server.js"
     },
     {
       "src": "/(.*)",
