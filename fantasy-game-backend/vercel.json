@@ -1,25 +1,15 @@
 {
-  "installCommand": "npm install --legacy-peer-deps",
   "version": 2,
   "builds": [
     {
-      "src": "FANTASY-GAME/fantasy-game-backend/server.js",
+      "src": "server.js",
       "use": "@vercel/node"
-    },
-    {
-      "src": "FANTASY-GAME/fantasy-game-frontend/dist/**/*",
-      "use": "@vercel/static"
     }
   ],
   "routes": [
     {
-      "src": "/api/(.*)",
-      "dest": "/fantasy-game-backend/server.js"
-    },
-    {
       "src": "/(.*)",
-      "dest": "fantasy-game/fantasy-game-frontend/dist/$1"
+      "dest": "server.js"
     }
   ]
 }
-
