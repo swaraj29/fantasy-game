@@ -20,9 +20,18 @@ A simple fantasy game feature where users can create and manage their fantasy te
 The application allows users to create their fantasy teams by selecting players from a predefined list. Users can manage their teams, view player details, and calculate total points based on player attributes.
 
 ## Screenshots
+![Screenshot 1](https://github.com/swaraj29/fantasy-game/raw/main/screenshots/1.png)
+###
+![Screenshot 2](https://github.com/swaraj29/fantasy-game/blob/main/screenshots/2.png)
+###
+![Screenshot 3](https://github.com/swaraj29/fantasy-game/blob/main/screenshots/3.png)
+###
+![Screenshot 4](https://github.com/swaraj29/fantasy-game/blob/main/screenshots/4.png)
+###
+![Screenshot 5](https://github.com/swaraj29/fantasy-game/blob/main/screenshots/5.png)
+###
+![Screenshot 6](https://github.com/swaraj29/fantasy-game/blob/main/screenshots/6.png)
 
-![Screenshot 1](link_to_your_first_screenshot.png)
-![Screenshot 2](link_to_your_second_screenshot.png)
 
 ## Tech Stack
 
