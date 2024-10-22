@@ -93,7 +93,12 @@ Ensure you set up the necessary environment variables in the `.env` file to conn
 
 ## Deployment
 
-This application can be deployed using platforms like Vercel or Heroku. Follow the respective platform's documentation for deploying Node.js applications.
+The application is deployed and can be accessed at [https://fantasyleaguev2.vercel.app/](https://fantasyleaguev2.vercel.app/).
+
+## Screenshots
+
+![Screenshot 1](link_to_your_first_screenshot.png)
+![Screenshot 2](link_to_your_second_screenshot.png)
 
 ## Contributing
 
@@ -102,3 +107,7 @@ Contributions to this project are welcome! If you find any bugs, have feature re
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+
+For support or inquiries, please contact [028swarajkumar@gmail.com](mailto:028swarajkumar@gmail.com).
