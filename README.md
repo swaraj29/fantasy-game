@@ -43,5 +43,17 @@ The application allows users to create their fantasy teams by selecting players 
 ```bash
 git clone https://github.com/your-username/fantasy-game.git
 cd fantasy-game
+2. Backend Setup
+
+cd fantasy-game-backend
+npm install
+MONGODB_URI=your_mongodb_uri_here
+PORT=5000
+npm start
+3. Frontend Setup
+cd ../fantasy-game-frontend
+npm install
+npm run dev
+
 
 
