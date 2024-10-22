@@ -5,6 +5,7 @@ A simple fantasy game feature where users can create and manage their fantasy te
 ## Table of Contents
 
 - [Project Overview](#project-overview)
+- [Screenshots](#screenshots)
 - [Tech Stack](#tech-stack)
 - [Features](#features)
 - [Installation](#installation)
@@ -18,6 +19,11 @@ A simple fantasy game feature where users can create and manage their fantasy te
 ## Project Overview
 
 The application allows users to create their fantasy teams by selecting players from a predefined list. Users can manage their teams, view player details, and calculate total points based on player attributes.
+
+## Screenshots
+
+![Screenshot 1](link_to_your_first_screenshot.png)
+![Screenshot 2](link_to_your_second_screenshot.png)
 
 ## Tech Stack
 
@@ -95,11 +101,6 @@ Ensure you set up the necessary environment variables in the `.env` file to conn
 
 The application is deployed and can be accessed at [https://fantasyleaguev2.vercel.app/](https://fantasyleaguev2.vercel.app/).
 
-## Screenshots
-
-![Screenshot 1](link_to_your_first_screenshot.png)
-![Screenshot 2](link_to_your_second_screenshot.png)
-
 ## Contributing
 
 Contributions to this project are welcome! If you find any bugs, have feature requests, or want to contribute enhancements, feel free to open an issue or submit a pull request.
@@ -107,7 +108,3 @@ Contributions to this project are welcome! If you find any bugs, have feature re
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Contact
-
-For support or inquiries, please contact [028swarajkumar@gmail.com](mailto:028swarajkumar@gmail.com).
